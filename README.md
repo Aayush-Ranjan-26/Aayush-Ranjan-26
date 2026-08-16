@@ -6,6 +6,12 @@
   Building practical Machine Learning, local AI workflows, and automation systems.
 </p>
 
+## Contribution Activity
+
+<p align="center">
+  <img src="./assets/contribution-heatmap.svg" width="1000" alt="Animated GitHub contribution heatmap">
+</p>
+
 ## Selected Projects
 
 | Project | What it demonstrates |
