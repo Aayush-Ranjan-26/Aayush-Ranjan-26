@@ -1,0 +1,30 @@
+name: Update contribution graph
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch public contribution data
+        run: python scripts/fetch_contributions.py
+      - name: Render animated SVG
+        run: python scripts/render_heatmap_svg.py
+      - name: Commit refreshed profile art
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/contributions.json assets/contribution-heatmap.svg
+          git diff --staged --quiet || git commit -m "chore: refresh contribution graph [skip ci]"
+          git push
+

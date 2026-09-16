@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-labelledby="title desc">
+  <title id="title">Aayush Ranjan - AI and Machine Learning student</title>
+  <desc id="desc">Terminal-style profile card listing Aayush's role, focus, recent experience, technical stack, and internship interests.</desc>
+  <rect width="1000" height="440" rx="18" fill="#0d1117"/>
+  <rect x="1" y="1" width="998" height="438" rx="17" fill="none" stroke="#30363d"/>
+  <rect x="1" y="1" width="998" height="54" rx="17" fill="#161b22"/>
+  <rect x="1" y="38" width="998" height="17" fill="#161b22"/>
+  <circle cx="35" cy="27" r="8" fill="#ff5f56"/>
+  <circle cx="61" cy="27" r="8" fill="#ffbd2e"/>
+  <circle cx="87" cy="27" r="8" fill="#27c93f"/>
+  <text x="500" y="33" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" text-anchor="middle">aayush@github: ~/applied-ai</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21">
+    <text x="52" y="101" fill="#58a6ff">$ whoami</text>
+
+    <g opacity="0" transform="translate(0,10)">
+      <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.25s" dur="0.35s" fill="freeze"/>
+      <text x="52" y="151" fill="#7ee787">role</text><text x="212" y="151" fill="#c9d1d9">Third-year B.Tech AI/ML student</text>
+    </g>
+
+    <g opacity="0" transform="translate(0,10)">
+      <animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.55s" dur="0.35s" fill="freeze"/>
+      <text x="52" y="197" fill="#7ee787">focus</text><text x="212" y="197" fill="#c9d1d9">Applied ML | Local AI | Automation</text>
+    </g>
+
+    <g opacity="0" transform="translate(0,10)">
+      <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.85s" dur="0.35s" fill="freeze"/>
+      <text x="52" y="243" fill="#7ee787">experience</text><text x="212" y="243" fill="#c9d1d9">Software/IT Automation Intern, STPI-HQ</text>
+    </g>
+
+    <g opacity="0" transform="translate(0,10)">
+      <animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="1.15s" dur="0.35s" fill="freeze"/>
+      <text x="52" y="289" fill="#7ee787">stack</text><text x="212" y="289" fill="#c9d1d9">Python | scikit-learn | Pandas | n8n | Ollama | MCP</text>
+    </g>
+
+    <g opacity="0" transform="translate(0,10)">
+      <animate attributeName="opacity" from="0" to="1" begin="1.45s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="1.45s" dur="0.35s" fill="freeze"/>
+      <text x="52" y="335" fill="#7ee787">open_to</text><text x="212" y="335" fill="#c9d1d9">ML | Data Science | AI Engineering internships</text>
+    </g>
+
+    <text x="52" y="395" fill="#58a6ff">$</text>
+    <rect x="76" y="376" width="11" height="24" fill="#58a6ff">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
