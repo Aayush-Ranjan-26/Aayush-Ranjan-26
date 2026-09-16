@@ -8,27 +8,27 @@
     <text x="32" y="75" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="13.5" fill="#c9d1d9">Python</text>
     <rect x="300" y="66" width="560" height="9" rx="4.5" fill="#161b22"/>
     <rect x="300" y="66" width="0" height="9" rx="4.5" fill="#3fb950">
-      <animate attributeName="width" values="0;320.0" dur="1.2s" begin="0.2s" fill="freeze"/>
+      <animate attributeName="width" values="0;350.0" dur="1.2s" begin="0.2s" fill="freeze"/>
     </rect>
-    <text x="882" y="75" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="12" fill="#8b949e" opacity="0">57%
+    <text x="882" y="75" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="12" fill="#8b949e" opacity="0">62%
       <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.3s" fill="freeze"/>
     </text>
 
     <text x="32" y="113" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="13.5" fill="#c9d1d9">JavaScript</text>
     <rect x="300" y="104" width="560" height="9" rx="4.5" fill="#161b22"/>
     <rect x="300" y="104" width="0" height="9" rx="4.5" fill="#58a6ff">
-      <animate attributeName="width" values="0;160.0" dur="1.2s" begin="0.35s" fill="freeze"/>
+      <animate attributeName="width" values="0;140.0" dur="1.2s" begin="0.35s" fill="freeze"/>
     </rect>
-    <text x="882" y="113" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="12" fill="#8b949e" opacity="0">29%
+    <text x="882" y="113" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="12" fill="#8b949e" opacity="0">25%
       <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.45s" fill="freeze"/>
     </text>
 
     <text x="32" y="151" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="13.5" fill="#c9d1d9">HTML</text>
     <rect x="300" y="142" width="560" height="9" rx="4.5" fill="#161b22"/>
     <rect x="300" y="142" width="0" height="9" rx="4.5" fill="#3fb950">
-      <animate attributeName="width" values="0;80.0" dur="1.2s" begin="0.5s" fill="freeze"/>
+      <animate attributeName="width" values="0;70.0" dur="1.2s" begin="0.5s" fill="freeze"/>
     </rect>
-    <text x="882" y="151" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="12" fill="#8b949e" opacity="0">14%
+    <text x="882" y="151" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="12" fill="#8b949e" opacity="0">12%
       <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/>
     </text>
   </g>
