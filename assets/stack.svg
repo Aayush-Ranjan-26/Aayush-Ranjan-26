@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" width="1000" height="310" role="img" aria-label="Tech stack loading">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3fb950"/><stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+    <clipPath id="sp"><rect width="1000" height="310" rx="14"/></clipPath>
+    <style>
+      .m { font-family: "SFMono-Regular", Consolas, Menlo, monospace; }
+      .l { fill: #c9d1d9; font-size: 13.5px; }
+      .s { fill: #6e7681; font-size: 11.5px; }
+      .p { fill: #8b949e; font-size: 12px; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#sp)">
+  <rect width="1000" height="310" rx="14" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="999" height="309" rx="14" fill="none" stroke="#21304a"/>
+
+  <text x="32" y="38" class="m" font-size="14" fill="#8b949e">$ pip install --upgrade ./stack</text>
+
+  <g class="m">
+    <text x="32" y="76" class="l">Python &#183; ML</text>
+    <text x="32" y="92" class="s">pandas &#183; numpy &#183; scikit-learn</text>
+    <rect x="300" y="66" width="570" height="9" rx="4.5" fill="#161b22"/>
+    <rect x="300" y="66" width="0" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" values="0;530" dur="1.3s" begin="0.2s" fill="freeze"/>
+    </rect>
+    <text x="892" y="76" class="p" opacity="0">93%<animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.4s" fill="freeze"/></text>
+
+    <text x="32" y="124" class="l">CS fundamentals</text>
+    <text x="32" y="140" class="s">C &#183; C++ &#183; DSA &#183; DAA &#183; OOPS</text>
+    <rect x="300" y="114" width="570" height="9" rx="4.5" fill="#161b22"/>
+    <rect x="300" y="114" width="0" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" values="0;496" dur="1.3s" begin="0.35s" fill="freeze"/>
+    </rect>
+    <text x="892" y="124" class="p" opacity="0">87%<animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.55s" fill="freeze"/></text>
+
+    <text x="32" y="172" class="l">Local AI &#183; Automation</text>
+    <text x="32" y="188" class="s">Ollama &#183; n8n &#183; MCP</text>
+    <rect x="300" y="162" width="570" height="9" rx="4.5" fill="#161b22"/>
+    <rect x="300" y="162" width="0" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" values="0;467" dur="1.3s" begin="0.5s" fill="freeze"/>
+    </rect>
+    <text x="892" y="172" class="p" opacity="0">82%<animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.7s" fill="freeze"/></text>
+
+    <text x="32" y="220" class="l">Web development</text>
+    <text x="32" y="236" class="s">HTML &#183; CSS &#183; JavaScript &#183; REST APIs</text>
+    <rect x="300" y="210" width="570" height="9" rx="4.5" fill="#161b22"/>
+    <rect x="300" y="210" width="0" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" values="0;433" dur="1.3s" begin="0.65s" fill="freeze"/>
+    </rect>
+    <text x="892" y="220" class="p" opacity="0">76%<animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.85s" fill="freeze"/></text>
+
+    <text x="32" y="268" class="l">Tools &#183; Platforms</text>
+    <text x="32" y="284" class="s">Git &#183; Docker &#183; Supabase &#183; Vercel &#183; Render &#183; Netlify</text>
+    <rect x="300" y="258" width="570" height="9" rx="4.5" fill="#161b22"/>
+    <rect x="300" y="258" width="0" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" values="0;410" dur="1.3s" begin="0.8s" fill="freeze"/>
+    </rect>
+    <text x="892" y="268" class="p" opacity="0">72%<animate attributeName="opacity" values="0;1" dur="0.3s" begin="2s" fill="freeze"/></text>
+  </g>
+
+  <rect x="-200" y="0" width="200" height="310" fill="#58a6ff" opacity="0.035">
+    <animate attributeName="x" values="-200;1000" dur="5.5s" begin="2.4s" repeatCount="indefinite"/>
+  </rect>
+  </g>
+</svg>
