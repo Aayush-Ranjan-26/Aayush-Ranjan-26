@@ -29,7 +29,7 @@
         <animate attributeName="stroke-dashoffset" values="263.9;0" dur="1.2s" begin="0.5s" fill="freeze"/>
       </circle>
       <text x="385" y="118" text-anchor="middle" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="30" font-weight="700"
-            fill="#e6edf3" opacity="0">1
+            fill="#e6edf3" opacity="0">4
         <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.1s" fill="freeze"/>
       </text>
       <text x="385" y="176" text-anchor="middle" font-family='"SFMono-Regular", Consolas, Menlo, monospace' font-size="13" fill="#8b949e" opacity="0">stars earned
